@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.3+commit.8d00100c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract EtherGame",
+						"name": "_etherGame",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/match3/Attack.sol": "Attack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/match3/Attack.sol": {
+			"keccak256": "0x79fee19be339f770b1dabc0f2f708aa3c4281d20b90d8d8d5d91a862b4ae4aab",
+			"urls": [
+				"bzz-raw://f95d771b7925c6077fb9f75942b7e1d970ac939042d733929432c31b1be66d26",
+				"dweb:/ipfs/QmVsQVtarVs28ZKjckpaHGVsM3C8k5hoPjvbAw6iWub8tU"
+			]
+		},
+		"contracts/match3/EtherGame.sol": {
+			"keccak256": "0x071464eb808e0f254a23685176e56318102546d794e6dd752158d37ab36a13aa",
+			"urls": [
+				"bzz-raw://8d106065d4415b5749028d506366ac22c589b925707ef26e4e07308419d02f43",
+				"dweb:/ipfs/QmT39GMqqwcTP2wYraUHJmCrpnatVKmEEBEzY6aSStRryq"
+			]
+		}
+	},
+	"version": 1
+}
